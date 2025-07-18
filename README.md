@@ -50,6 +50,26 @@
 - Risk scoring system
 - Timeline visualization
 
+- Usage
+text
+
+python3 fazo_finder.py [options]
+
+Options:
+  -d, --domain DOMAIN    Perform DNS lookup on a domain
+  -e, --email EMAIL      Check if email was involved in breaches
+  -u, --username USER    Search for username across social media
+  -o, --output           Save results to a file
+
+Examples
+
+    Check DNS records for a domain:
+
+bash
+
+python3 fazo_finder.py -d example.com
+python3 fazo_finder.py -e user@example.com
+
 ## 🚀 Installation
 
 ### Kali Linux
@@ -68,3 +88,4 @@ git clone https://github.com/Old-hacker01/fazo-finder.git
 cd FazoFinder
 chmod +x fazo_finder.py
 python fazo_finder.py
+
