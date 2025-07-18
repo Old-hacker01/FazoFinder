@@ -57,6 +57,7 @@
 git clone https://github.com/Old-hacker01/fazo-finder.git
 cd FazoFinder
 chmod +x fazo-finder.py
+python fazo_finder.py
 ##Termux(Android)
 
 bash
@@ -66,3 +67,4 @@ pkg install git python python-pip
 git clone https://github.com/Old-hacker01/fazo-finder.git
 cd FazoFinder
 chmod +x fazo_finder.py
+python fazo_finder.py
