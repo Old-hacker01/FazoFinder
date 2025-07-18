@@ -55,9 +55,8 @@
 ### Kali Linux
 ```bash
 git clone https://github.com/Old-hacker01/fazo-finder.git
-cd fazo-finder
-chmod +x setup.sh
-./setup.sh
+cd FazoFinder
+chmod +x fazo-finder.py
 ##Termux(Android)
 
 bash
@@ -65,5 +64,5 @@ bash
 pkg update && pkg upgrade
 pkg install git python python-pip
 git clone https://github.com/Old-hacker01/fazo-finder.git
-cd fazo-finder
-python setup.py
+cd FazoFinder
+chmod +x fazo_finder.py
